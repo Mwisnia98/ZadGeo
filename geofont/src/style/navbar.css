@@ -1,0 +1,52 @@
+.navigations {
+    background-color: royalblue;
+    width: 100%;
+    height: 7vh;
+    margin-top: -1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.navdiv {
+    margin-top: 1em;
+    
+}
+.navdiv button {
+    padding: .4em 3em;
+    cursor: pointer;
+    background: none;
+    border: 1px solid white;
+    color: wheat;
+    border-radius: 20px;
+    transition: .3s cubic-bezier(0.075, 0.82, 0.165, 1) ;
+}
+
+.navdiv button:hover {
+    font-weight: bold;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+}
+
+
+.BackToHome {
+    font-weight: bold;
+    
+    font-size: 24px;
+    margin-top: 2.1rem;
+    border: none;
+    color: white;
+    margin-right: 2em;
+    transition: .3s cubic-bezier(0.075, 0.82, 0.165, 1) ;
+}
+a:-webkit-any-link {
+    color: none;
+    text-decoration: none;
+}
+
+.BackToHome:hover {
+    font-size: 30px;
+}
+
+
